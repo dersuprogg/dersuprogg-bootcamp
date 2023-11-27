@@ -11,7 +11,8 @@
 /*
   2. Remove default margin
 */
-* {
+*,
+body {
   margin: 0;
 }
 
@@ -68,12 +69,21 @@ h6 {
   isolation: isolate;
 }
 
+/*      */
+/*HEADER*/
+/*      */
+
 .header {
   display: flex;
   background-color: #42414d;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
 .nav-list {
@@ -107,10 +117,59 @@ h6 {
   background-color: #458ed5;
 }
 
-
-
 .logo-container {
   max-width: 40px;
   overflow: hidden;
   border-radius: 50%;
+}
+
+/*    */
+/*HERO*/
+/*    */
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.hero {
+  background: url("img/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-info {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-cta {
+  background-color: #3081D0;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+  padding: 0.25rem 1rem;
+  border-radius: 10rem;
+  margin-top: 1rem;
+}
+
+.hero-cta:hover {
+  background-color: #458ed5;
+}
+
+
+.hero-title {
+  font-size: 3rem;
 }
