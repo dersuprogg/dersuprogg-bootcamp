@@ -273,6 +273,11 @@ h6 {
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #458ed5;
 }
 
 .contact input:focus,
@@ -281,4 +286,12 @@ h6 {
   border-radius: 3px;
   outline: 3px solid #accdec;
   outline-offset: 1px;
+}
+
+.footer {
+  display: flex;
+  background-color: #42414d;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
 }
