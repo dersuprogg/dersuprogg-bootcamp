@@ -183,6 +183,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(2, minmax(20rem, 25rem));
   gap: 1rem;
+  row-gap: 2rem;
 }
 
 .curriculum h2 {
