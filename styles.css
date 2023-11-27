@@ -184,6 +184,7 @@ h6 {
   grid-template-columns: repeat(2, minmax(20rem, 25rem));
   gap: 1rem;
   row-gap: 2rem;
+  font-size: 1.25rem;
 }
 
 .curriculum h2 {
@@ -200,4 +201,25 @@ h6 {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+/*             */
+/*PRICE SECTION*/
+/*             */
+
+
+.price {
+  background-color: #3081D0;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.price h2 {
+  font-size: 3rem;
+}
+
+.price p {
+  font-size: 1rem;
+  color: #d6d6d6;
 }
