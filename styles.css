@@ -67,3 +67,50 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.header {
+  display: flex;
+  background-color: #42414d;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 1.25rem;
+}
+
+.nav-list a:link:hover,
+.nav-list a:visited:hover {
+  cursor: pointer;
+}
+
+
+.cta-btn {
+  background-color: #3081D0;
+  padding: 0.05rem 1.5rem;
+  border-radius: 100px;
+  transition: background-color 0.1s ease;
+}
+
+.cta-btn:hover {
+  background-color: #458ed5;
+}
+
+
+
+.logo-container {
+  max-width: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
