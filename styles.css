@@ -293,6 +293,10 @@ h6 {
   gap: 2rem;
 }
 
+.contact h2 {
+  font-size: 2rem;
+}
+
 .contact form {
   width: 30rem;
   display: flex;
@@ -348,4 +352,32 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 2rem;
+}
+
+
+/*               */
+/* MEDIA QUERIES */
+/*               */
+
+@media (max-width: 800px) {
+  .price-section {
+    display: grid;
+    grid-template-columns: minmax(auto, 450px);
+    row-gap: 1rem;
+  }
+
+  .plan:first-child,
+  .plan:last-child {
+    border: 1px solid #333;
+  }
+
+  .curriculum {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .curriculum h2 {
+    text-align: center;
+  }
 }
