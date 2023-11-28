@@ -388,4 +388,14 @@ h6 {
   .nav-list li a:link {
     font-size: 1rem;
   }
+
+  .hero {
+    background-position: right;
+  }
+
+  .hero-title {
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
 }
