@@ -368,6 +368,7 @@ h6 {
   .plan:first-child,
   .plan:last-child {
     border: 1px solid #333;
+    border-radius: .3rem;
   }
 
   .curriculum {
