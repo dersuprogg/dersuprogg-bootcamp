@@ -300,7 +300,6 @@ h6 {
 .contact form {
   width: 30rem;
   display: flex;
-  flex-shrink: 0;
   flex-direction: column;
 }
 
@@ -364,7 +363,7 @@ h6 {
     display: grid;
     grid-template-columns: minmax(auto, 450px);
     row-gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem;
   }
 
   .plan:first-child,
@@ -380,5 +379,9 @@ h6 {
 
   .curriculum h2 {
     text-align: center;
+  }
+
+  .contact form {
+    max-width: 20rem;
   }
 }
