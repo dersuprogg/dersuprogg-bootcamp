@@ -385,6 +385,10 @@ h6 {
     max-width: 20rem;
   }
 
+  .nav-list {
+    gap: 1rem;
+  }
+
   .nav-list li a:link {
     font-size: 1rem;
   }
