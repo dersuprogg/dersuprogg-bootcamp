@@ -364,6 +364,7 @@ h6 {
     display: grid;
     grid-template-columns: minmax(auto, 450px);
     row-gap: 1rem;
+    padding: 2rem 1rem;
   }
 
   .plan:first-child,
