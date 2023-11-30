@@ -158,6 +158,8 @@ h6 {
   justify-content: center;
   align-items: center;
   color: #fff;
+  overflow: hidden;
+
 }
 
 .hero-info {
@@ -184,6 +186,32 @@ h6 {
 
 .hero-title {
   font-size: 3rem;
+  animation: slide-in-left 0.3s 1 0.3s forwards;
+  transform: translateX(-100vw);
+}
+
+.hero-title+p {
+  animation: slide-in-right 0.3s 1 0.6s backwards;
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100vw);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100vw);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 /*                 */
