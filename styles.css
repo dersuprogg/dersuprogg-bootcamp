@@ -204,6 +204,20 @@ h6 {
   gap: 1rem;
 }
 
+.language:hover img {
+  animation: shake 0.1s 1 ease;
+}
+
+@keyframes shake {
+  from {
+    transform: rotate(5deg);
+  }
+
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
 /*             */
 /*PRICE SECTION*/
 /*             */
